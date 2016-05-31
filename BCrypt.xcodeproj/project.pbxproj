@@ -15,6 +15,8 @@
 		E25179CF1CFD1B63009179B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25179CD1CFD1B63009179B2 /* LaunchScreen.storyboard */; };
 		E25179DA1CFD1B63009179B2 /* BCryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25179D91CFD1B63009179B2 /* BCryptTests.m */; };
 		E25179E51CFD1B63009179B2 /* BCryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25179E41CFD1B63009179B2 /* BCryptUITests.m */; };
+		E25179F41CFD1B95009179B2 /* JFBCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = E25179F31CFD1B95009179B2 /* JFBCrypt.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E25179F81CFD1BEE009179B2 /* JFRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = E25179F71CFD1BEE009179B2 /* JFRandom.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		E25179E01CFD1B63009179B2 /* BCryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25179E41CFD1B63009179B2 /* BCryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCryptUITests.m; sourceTree = "<group>"; };
 		E25179E61CFD1B63009179B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25179F21CFD1B95009179B2 /* JFBCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBCrypt.h; sourceTree = "<group>"; };
+		E25179F31CFD1B95009179B2 /* JFBCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBCrypt.m; sourceTree = "<group>"; };
+		E25179F51CFD1BC8009179B2 /* JFGC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFGC.h; sourceTree = "<group>"; };
+		E25179F61CFD1BE6009179B2 /* JFRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRandom.h; sourceTree = "<group>"; };
+		E25179F71CFD1BEE009179B2 /* JFRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRandom.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,11 @@
 			children = (
 				E25179C21CFD1B63009179B2 /* AppDelegate.h */,
 				E25179C31CFD1B63009179B2 /* AppDelegate.m */,
+				E25179F51CFD1BC8009179B2 /* JFGC.h */,
+				E25179F21CFD1B95009179B2 /* JFBCrypt.h */,
+				E25179F31CFD1B95009179B2 /* JFBCrypt.m */,
+				E25179F61CFD1BE6009179B2 /* JFRandom.h */,
+				E25179F71CFD1BEE009179B2 /* JFRandom.m */,
 				E25179C51CFD1B63009179B2 /* ViewController.h */,
 				E25179C61CFD1B63009179B2 /* ViewController.m */,
 				E25179C81CFD1B63009179B2 /* Main.storyboard */,
@@ -271,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25179C71CFD1B63009179B2 /* ViewController.m in Sources */,
+				E25179F41CFD1B95009179B2 /* JFBCrypt.m in Sources */,
 				E25179C41CFD1B63009179B2 /* AppDelegate.m in Sources */,
 				E25179C11CFD1B63009179B2 /* main.m in Sources */,
+				E25179F81CFD1BEE009179B2 /* JFRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
